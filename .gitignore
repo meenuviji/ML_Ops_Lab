@@ -1,0 +1,9 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual env
+.venv/
