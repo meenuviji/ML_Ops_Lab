@@ -1,6 +1,6 @@
 # test/test_pytest.py
 import pytest
-from src.calculator import (
+from src.currency_converter import (
     convert, add_rate, set_rates, get_rate, list_currencies, reset_rates
 )
 
