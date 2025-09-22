@@ -1,0 +1,140 @@
+PS D:\NEU\Sem 4\MLOps\mlops_lab1> python -m venv lab_01
+PS D:\NEU\Sem 4\MLOps\mlops_lab1> lab_01\Scripts\activate
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1> git clone https://github.com/pramothguhan/git_lab1.git
+Cloning into 'git_lab1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)  
+Receiving objects: 100% (3/3), done.
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1> cd git_lab1
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git add .
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Iniial Project Structure with src, data , test"
+[main 5b4b6d2] Iniial Project Structure with src, data , test
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 data/__init__.py
+ create mode 100644 src/__init__.py
+ create mode 100644 test/__init__.py
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pramothguhan/git_lab1.git
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pramothguhan/git_lab1.git
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pramothguhan/git_lab1.git
+To https://github.com/pramothguhan/git_lab1.git
+   3a69c5a..5b4b6d2  main -> main
+   3a69c5a..5b4b6d2  main -> main
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git add src/calculator.py
+warning: in the working copy of 'src/calculator.py', LF will be replaced by CRLF the next time Git touches it
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git add src/calculator.py
+warning: in the working copy of 'src/calculator.py', LF will be replaced by CRLF the next time Git touches it
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Creator.py
+warning: in the working copy of 'src/calculator.py', LF will be replaced by CRLF the next time Git touches it
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Cread by CRLF the next time Git touches it
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Created basic Calculator Functions"
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Created basic Calculator Functions"
+ted basic Calculator Functions"
+[main 4b795fb] Created basic Calculator Functions
+[main 4b795fb] Created basic Calculator Functions
+ 1 file changed, 65 insertions(+)
+ create mode 100644 src/calculator.py
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 787 bytes | 787.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pramothguhan/git_lab1.git
+   5b4b6d2..4b795fb  main -> main
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> pip install pytest
+Collecting pytest
+  Using cached pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+Collecting colorama>=0.4 (from pytest)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting iniconfig>=1 (from pytest)
+  Using cached iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting packaging>=20 (from pytest)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pygments>=2.7.2 (from pytest)
+  Using cached pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Using cached pytest-8.4.2-py3-none-any.whl (365 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Installing collected packages: pygments, pluggy, packaging, iniconfig, colorama, pytest
+Successfully installed colorama-0.4.6 iniconfig-2.1.0 packaging-25.0 pluggy-1.6.0 pygments-2.19.2 pytest-8.4.2
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip       
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> pytest test/test_pytest.py
+======================== test session starts =========================
+platform win32 -- Python 3.12.4, pytest-8.4.2, pluggy-1.6.0
+rootdir: D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1
+collected 4 items
+
+test\test_pytest.py ....                                        [100%] 
+
+========================= 4 passed in 0.16s ========================== 
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> python -m unittest test/test_unittest.py
+....
+---------------------------------------------------------------------- 
+Ran 4 tests in 0.001s
+
+OK
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git add .
+warning: in the working copy of 'test/test_pytest.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test/test_unittest.py', LF will be replaced by CRLF the next time Git touches it
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git commit -m "Created Pytest, Unit Test and Requirement.txt"
+[main d10a56a] Created Pytest, Unit Test and Requirement.txt
+ 8 files changed, 73 insertions(+)
+ create mode 100644 requirements.txt
+ create mode 100644 src/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 src/__pycache__/calculator.cpython-312.pyc
+ create mode 100644 test/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 test/__pycache__/test_pytest.cpython-312-pytest-8.4.2.pyc
+ create mode 100644 test/__pycache__/test_unittest.cpython-312.pyc     
+ create mode 100644 test/test_pytest.py
+ create mode 100644 test/test_unittest.py
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git push origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 6.08 KiB | 1.22 MiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/pramothguhan/git_lab1.git
+   4b795fb..d10a56a  main -> main
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> git pull origin main
+From https://github.com/pramothguhan/git_lab1
+ * branch            main       -> FETCH_HEAD
+Updating d10a56a..c41e41a
+Fast-forward
+ .github/workflows/pytest_action.yml   | 52 +++++++++++++++++++++++++++++++++++
+ .github/workflows/unittest_action.yml | 34 +++++++++++++++++++++++    
+ README.md                             |  4 ++-
+ 3 files changed, 89 insertions(+), 1 deletion(-)
+ create mode 100644 .github/workflows/pytest_action.yml
+ create mode 100644 .github/workflows/unittest_action.yml
+(lab_01) PS D:\NEU\Sem 4\MLOps\mlops_lab1\git_lab1> 
