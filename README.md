@@ -16,9 +16,3 @@ The converter uses USD as the base:
   - `add_rate(code, per_usd)`
   - `set_rates({...})`
   - `reset_rates()`
-- Tests in both **pytest** and **unittest**
-- Ready for CI via **GitHub Actions**
-
----
-
-## Project Structure
