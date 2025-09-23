@@ -1,5 +1,4 @@
-# ML_OPS_LAB – Currency Converter (with Pytest & Unittest)
-
+# ML_OPS_LAB – Currency Converter 
 A simple, deterministic **currency converter** implemented in Python with
 **unit tests (pytest + unittest)** and optional **GitHub Actions** CI.
 
